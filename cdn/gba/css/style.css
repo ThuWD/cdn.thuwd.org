@@ -2,6 +2,7 @@ html,
 body {
     width: auto;
     font-family: 'Sulphur Point';
+    background-image: url(bg.jpg)
 }
 h1 {
 
@@ -16,7 +17,6 @@ border-radius: 3px;
 }
 .img {
 width: 25px;
-left: 0%;
 }
 .tutorial {
 font-size: 20px;
@@ -35,7 +35,10 @@ font-size: 20px;
     align-content: center;
 }
 #back {
-left: 0%;
+border: 50%;
+border-style:solid; 
+border-color:rgb(0, 81, 255);
+border-radius: 3px;
 }
 .zelda {
     width: 75px;
